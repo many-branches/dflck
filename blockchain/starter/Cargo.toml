@@ -1,0 +1,24 @@
+[package]
+name = "starter"
+version = "0.1.0"
+authors = ["Your Name <you@example.com>"]
+edition = "2021"
+
+[dependencies]
+tokio = { workspace = true }
+async-trait = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+sha2 = { workspace = true }
+futures = { workspace = true }
+rand = { workspace = true }
+async-recursion = { workspace = true }
+colored = { workspace = true }
+tokio-stream = { workspace = true }
+console-subscriber = { workspace = true }
+tracing =  { workspace = true }
+tracing-subscriber = { workspace = true }
+async-channel = { workspace = true }
+
+[lib]
+path = "src/lib.rs"
